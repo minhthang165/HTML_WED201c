@@ -18,7 +18,7 @@
     width: 15%;
 }
 
-.search{
+.search input{
     width: 100%;
 }
 
@@ -124,8 +124,8 @@
     padding-top: 10px;
 }
 
-.Ordering .form input{
-    display: block;
+.Ordering .form input, textarea, select{
+    width: 100%;
 }
 
 .Ordering button{
