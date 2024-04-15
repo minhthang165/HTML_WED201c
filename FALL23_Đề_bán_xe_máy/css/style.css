@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    align-items: center;
+}
+
+.header h3{
+    font-size: larger;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header img{
+    width: 15%;
+}
+
+.search{
+    width: 100%;
+}
+
+.menu{
+    background-color: rgba(18, 124, 231, 0.77);
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.menu li:hover{
+    background-color: orange;
+}
+
+.menu li:active{
+    background-color: burlywood;
+}
+
+.ab160 h2{
+    text-align: center;
+    color: rgb(127, 242, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 2fr 0.75fr 0.75fr;
+    gap: 50px;
+}
+
+.images img{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.container h1{
+    text-align: center;
+    color: rgb(127, 242, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.product img{
+    width: 70%;
+    height: 70%;
+}
+
+.product h3{
+    color: rgb(245, 175, 46);
+    padding-top: 20px;
+}
+
+.product p{
+    padding: 5px 5px 5px 0;
+}
+
+
+.Ordering{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Ordering h1{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(127, 242, 255);
+}
+
+.Ordering img{
+    padding: 20px 20px 10px 20px;
+}
+
+.Ordering .form{
+    padding: 20px 20px 10px 20px;
+}
+
+.Ordering .form label{
+    font-weight: bold;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.Ordering .form-group1 label{
+    padding-top: 10px;
+}
+
+.Ordering .form input{
+    display: block;
+}
+
+.Ordering button{
+    background-color: rgb(62, 156, 244);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+}
+
+.footer{
+    background-color: rgb(127, 129, 255);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer p{
+    padding-bottom: 10px;
+}
+
+
