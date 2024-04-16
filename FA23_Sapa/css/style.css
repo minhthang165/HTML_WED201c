@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img{
+    width: 40%;
+}
+
+.header .search-box input{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+ .header h3{
+    text-align: center;
+ }
+
+
+.menu ul{
+    background-color: rgb(127, 212, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.menu li:hover{
+    background-color: orange;
+}
+
+.menu li:active{
+    background-color: blanchedalmond;
+}
+
+.banner{
+    width: 100%;
+    text-align: center;
+}
+
+.content h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+    font-weight: lighter;
+}
+
+.content-tour {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.content-tour img{
+    width: 100%;
+    padding: 10px;
+}
+
+.content-tour .info{
+    padding: 20px;
+}
+
+.content-tour .info h2{
+    color:greenyellow;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.content-tour .info p{
+    padding-bottom: 10px;
+    word-spacing: 2px;
+}
+
+.content-tour .booking h4{
+    color: orange;
+}
+
+.content-tour .booking button{
+    padding: 10px;
+    border: 2px solid aquamarine;
+    background-color: aquamarine;
+
+}
+
+.Registration{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Registration img{
+    width: 100%;
+}
+
+.Registration .form{
+    padding-left: 20px;
+}
+
+.Registration .form h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aquamarine;
+    font-weight: lighter;
+}
+
+.Registration .form label{
+    display: block;
+    color: greenyellow;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.Registration .form input{
+    width: 100%;
+    padding: 5px;
+}
+
+.Registration .form button{
+    padding: 5px;
+    margin-top: 10px;
+    background-color: orange;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: rgb(127, 189, 255);
+    color: beige;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer p{
+    padding: 5px;
+}
+
